@@ -21,7 +21,7 @@ class UserRepo:
         self.db.commit()
         return user
 
-    def update_user_name(self,user:User):
+    def update_user_username(self,user:User):
         self.db.add(user)
         self.db.commit()
         return user
